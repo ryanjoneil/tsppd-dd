@@ -18,7 +18,7 @@ type Solver struct {
 
 	logger    Logger
 	wallStart time.Time
-	cpuStart  _Ctype_long
+	cpuStart  C.long
 	fails     uint64
 	nodes     uint64
 }
